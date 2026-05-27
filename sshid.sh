@@ -13,6 +13,11 @@ CHAVE_PUBLICA="https://sshid.io/felipelyp"
 export PATH=$PATH:/usr/sbin:/sbin
 
 # =============================
+# ATUALIZAR PACOTES
+# =============================
+apt update -y
+
+# =============================
 # CRIA USUÁRIO COM SENHA
 # =============================
 adduser $USUARIO
